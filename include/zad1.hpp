@@ -15,7 +15,7 @@ public:
 	Artysta(const string& p,unsigned l):pseudo(p),liczba(l){}
 	const string& getPseudonim() const { return pseudo; }
 	unsigned getSluchacze() const { return liczba; }
-	virtual void graj(ostream& s)const { s << pseudo << ": " << liczba<<endl; }
+	virtual void graj(ostream& s) const { s << pseudo << ": " << liczba<<endl; }
 private:
 	string pseudo;
 	unsigned liczba;
